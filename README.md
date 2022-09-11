@@ -11,6 +11,10 @@ In this repo you will find some usefull tips about how the bash scripting works.
 
 `read -s` -> Hide incoming information by user itself.
 
-`read -n1` -> Keeps the execution line, the same line we are in until it reaches the defined number of characters.
+`read -n1` -> Keeps the execution line, the same line we are in until it reaches the defined number of characters it can be 1 or 2 or 3 ... etc.
 
 `read -p` -> Indicates that the information entered must be left in the following variable.
+
+#### Echo options: 
+
+`echo -e` allows echo interpret the backslash escapes.
