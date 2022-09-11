@@ -1,5 +1,4 @@
 #!/bin/bash
-# Programa para revisar los tipos de operadores
 
 nombreCurso=$1
 horarioCurso=$2
