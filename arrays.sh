@@ -37,9 +37,7 @@ echo "Posicion 3 Arreglo Rangos: ${arregloRangos[3]}"
 echo -e "\n\t Añadir y eliminar valores en un arreglo:"
       # todo: Añadir y eliminar valores en un arreglo:
 
-arregloNumeros[7]=20
-unset arregloNumeros[0]  # ! this removes the element but also removes the index in the array
+arregloNumeros[6]=20
+# unset arregloNumeros[0]  # ! this removes the element but also removes the index in the array
 echo "Arreglo de numeros: ${arregloNumeros[*]}"
 echo "Tamaño arreglo de numeros: ${#arregloNumeros[*]}"
-
-echo "elemnt 0: ${arregloNumeros[6]}"
