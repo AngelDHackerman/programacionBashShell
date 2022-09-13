@@ -19,31 +19,32 @@ do
   echo -e "\t 2. Desinstalar Postgres"
   echo -e "\t 3. Sacar un resplando"
   echo -e "\t 4. Restar respaldo"
-  echo -e "\t 5. Salir \n\n"
+  echo -e "\t 5. Salir"
 
   # Read the user data - caputre the information
   read -n1 -p "Ingrese una opcion [1-5]: " opcion
+  echo -e "\n\n"  # ? this is use for identation
 
   # Validate the information entered
   case $opcion in 
     1)  
-      echo -e "\n\nInstalar Postgres..."
+      echo -e "Instalar Postgres..."
       sleep 3
       ;;
     2)  
-      echo -e "\n\nDesinstalar Postgres..."
+      echo -e "Desinstalar Postgres..."
       sleep 3
       ;;
     3)  
-      echo -e "\n\nSacar respaldo..."
+      echo -e "Sacar respaldo..."
       sleep 3 
       ;;
     4)
-      echo -e "\n\nRestaurar respaldo..."
+      echo -e "Restaurar respaldo..."
       sleep 3
       ;;
     5)
-      echo -e "\n\nSaliendo del Programa!"
+      echo -e "Saliendo del Programa!"
       exit 0  # ? exit 0, is the exit code for succeed exit
       ;;
   esac
